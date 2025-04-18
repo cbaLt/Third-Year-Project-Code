@@ -9,8 +9,8 @@ train_test_split.py - a file with helper functions that are used by the preproce
 
 HHT.py - this is a multi-threaded file to decompose the signal into the HHT spectrum. It takes a very long time (matter of days for E1-E3).
 
-STFT_feature_extraction - multi-threaded file to decompose the signal into 7 freuqency features. Can only be used for DB3, DB4 and DB5.
-STFT_DB1_feature_extraction - same as above, but it can only be used for DB1 - the way the trials are split for train/test are different, as DB1 is split in CNN/SVM files, while the rest are split in feature extraction
+STFT_feature_extraction.py - multi-threaded file to decompose the signal into 7 freuqency features. Can only be used for DB3, DB4 and DB5.
+STFT_DB1_feature_extraction.py - same as above, but it can only be used for DB1 - the way the trials are split for train/test are different, as DB1 is split in CNN/SVM files, while the rest are split in feature extraction
 
 feature_extraction.py - used to extract 11 time domain features from the EMG signal. Only used for DB3, DB4 and DB5.
 DB1_feature_extraction.py - same as above, except only used for DB1 because the train/test data is split differently.
